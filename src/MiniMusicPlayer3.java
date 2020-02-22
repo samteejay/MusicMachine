@@ -20,7 +20,8 @@ public class MiniMusicPlayer3 {
     } // close method
 
     public void go() {
-        setUpGui();
+        // set up GUI
+		setUpGui();
         try {
             Sequencer sequencer = MidiSystem.getSequencer();
             sequencer.open();
